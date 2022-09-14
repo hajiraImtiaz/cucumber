@@ -1,4 +1,4 @@
-@Regression @smoke
+@Regression @smoke @login
 Feature: Library app login feature
   User Story:
   As a user, Ishould be able to login with correct credentials to different
