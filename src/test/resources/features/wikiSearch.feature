@@ -6,3 +6,9 @@ Feature: Wikipedia search functionality and verifications
     When User types Steve Jobs in the wiki search box
     And User click wiki search button
     Then User sees Steve Jobs is in wiki title
+
+    Scenario: Wikipedia Search Functionality Header Verification
+      Given User is on Wikipedia home page
+      When User types Steve Jobs in the wiki search box
+      And User click wiki search button
+      Then User sees Steve Jobs is in the main header
